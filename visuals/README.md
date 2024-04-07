@@ -90,7 +90,7 @@ The library processes scanned PDF files of newspaper-style columnar documents, b
 
 2. **Adjust the Image**: Crop the image to eliminate extraneous borders or edges, streamlining the OCR process. Here's the result after using the `adjust` method:
 
-   ![Adjusted Image](/path/to/adjusted_image.png)
+   ![Adjusted Image](visuals/fullpage.png)
 
 3. **Get Cut Points**: Calculate the precise locations at which the image should be cut into columns or snippets with the `get_cutpoints` method.
 
@@ -98,15 +98,15 @@ The library processes scanned PDF files of newspaper-style columnar documents, b
 
    - **Snippet 1**:
 
-     ![Snippet 1](/path/to/snippet_1.png)
+     ![Snippet 1](/visuals/snippet1.png)
 
    - **Snippet 2**:
 
-     ![Snippet 2](/path/to/snippet_2.png)
+     ![Snippet 2](/visuals/snippet2.png)
 
    - **Snippet 3**:
 
-     ![Snippet 3](/path/to/snippet_3.png)
+     ![Snippet 3](/visuals/snippet3.png)
 
 5. **Prepare for OCR**: The individual column images are now prepared for OCR processing to extract the textual content.
 
