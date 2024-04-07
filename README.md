@@ -113,6 +113,49 @@ The library processes scanned PDF files of newspaper-style columnar documents, b
 
 5. **Prepare for OCR**: The individual column images are now prepared for OCR processing to extract the textual content.
 
+  
+6. **Final Look**:
+   ```sh
+     A
+    A thru Z Consulting and Distributing, Inc.
+    7512 Clybourn Avenue
+    Sun Valley, CA 91352-5146
+    P.O. Box 15969
+    North Hollywood, CA 91615-5969
+    (818) 504-0420
+    Fax: 818-504-0868
+    Sean A. Stoddard, Owner
+    Employees: 5
+    Established: 1990
+    Privately owned
+    Products: Light steel manufacturing
+    ABB HAFO Inc.
+    (formerly Asea Hafo, Inc.)
+    11501 Rancho Bernardo Road
+    Suite 200
+    San Diego, CA 92127
+    (619) 675-3400
+    Fax: 619-675-3450
+    Parent Company: ABB HAFO AB
+    Jarfalla, S-175 26 SWEDEN
+    Bruttovagen 1, Box 520
+    Ralph Waggitt, President
+    Joseph Courtois, Vice President Finance
+    Ron Carino, Vice President Sales and
+    Yukio Nishikawa, Vice President Engineering
+    Company acronym: HAFO
+    Employees: 30
+    Established: 1983
+    Privately owned
+    Products: Custom CMOS integrated circuits
+    Sites: Stockholm (Sweden), Paris (France)
+    
+
+   
+        
+
+     
+
 For a full demonstration, see the examples below created with images from a sample document.
 
 
