@@ -96,17 +96,20 @@ The library processes scanned PDF files of newspaper-style columnar documents, b
 
 4. **Cut the Image into Snippets**: Utilizing the cut points, slice the images into individual columns. Here are the snippets after being processed:
 
-   - **Snippet 1**:
+<table>
+  <tr>
+    <td>
+      <img src="/visuals/snippet1.png" alt="Snippet 1" width="300"/>
+    </td>
+    <td>
+      <img src="/visuals/snippet2.png" alt="Snippet 2" width="300"/>
+    </td>
+    <td>
+      <img src="/visuals/snippet3.png" alt="Snippet 3" width="300"/>
+    </td>
+  </tr>
+</table>
 
-     ![Snippet 1](/visuals/snippet1.png)
-
-   - **Snippet 2**:
-
-     ![Snippet 2](/visuals/snippet2.png)
-
-   - **Snippet 3**:
-
-     ![Snippet 3](/visuals/snippet3.png)
 
 5. **Prepare for OCR**: The individual column images are now prepared for OCR processing to extract the textual content.
 
