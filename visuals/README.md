@@ -90,7 +90,7 @@ The library processes scanned PDF files of newspaper-style columnar documents, b
 
 2. **Adjust the Image**: Crop the image to eliminate extraneous borders or edges, streamlining the OCR process. Here's the result after using the `adjust` method:
 
-   ![Adjusted Image](visuals/fullpage.png)
+   ![Adjusted Image](/visuals/fullpage.png)
 
 3. **Get Cut Points**: Calculate the precise locations at which the image should be cut into columns or snippets with the `get_cutpoints` method.
 
