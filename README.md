@@ -75,11 +75,11 @@ Ensure you have Python 3.6 or later installed on your system.
    git clone https://github.com/ashbate/OCR_Reading_PDF.git
 
 Navigate to the cloned directory and install required packages:
-```sh
-pip install -r req
+    ```sh  
+    
+    pip install -r req
 
-
-## Usage
+### Usage
 
 For detailed usage instructions, please refer to the [Documentation](https://github.com/ashbate/OCR_Reading_PDF).
 
