@@ -115,31 +115,6 @@ The library processes scanned PDF files of newspaper-style columnar documents, b
 
 For a full demonstration, see the examples below created with images from a sample document.
 
-### Visual Examples
-
-- **Original PDF Page**:
-
-  ![Original PDF Page](/path/to/original_pdf_page.png)
-
-- **Adjusted Image**: After cropping to remove unnecessary borders using the `adjust` method:
-
-  ![Adjusted Image](/path/to/adjusted_image.png)
-
-- **Column Snippets**: Resulting images after applying `snippet_cut`:
-
-  - **Column 1**:
-
-    ![Column 1](/path/to/column1.png)
-
-  - **Column 2**:
-
-    ![Column 2](/path/to/column2.png)
-
-  - **Column 3**:
-
-    ![Column 3](/path/to/column3.png)
-
-Replace `/path/to/...` with the actual paths where the images are hosted. If the images are stored in the repository, the path would be relative to the location of the README file within the repository structure.
 
 
 ## Contributing
