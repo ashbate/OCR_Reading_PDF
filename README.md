@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ashbate/OCR_Reading_PDF">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="/visuals/logo.webp" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">OCR Reading PDF</h3>
@@ -90,53 +90,31 @@ The library processes scanned PDF files of newspaper-style columnar documents, b
 
 2. **Adjust the Image**: Crop the image to eliminate extraneous borders or edges, streamlining the OCR process. Here's the result after using the `adjust` method:
 
-   ![Adjusted Image](/path/to/adjusted_image.png)
+   ![Adjusted Image](/visuals/fullpage.png)
 
 3. **Get Cut Points**: Calculate the precise locations at which the image should be cut into columns or snippets with the `get_cutpoints` method.
 
 4. **Cut the Image into Snippets**: Utilizing the cut points, slice the images into individual columns. Here are the snippets after being processed:
 
-   - **Snippet 1**:
+<table>
+  <tr>
+    <td>
+      <img src="/visuals/snippet1.png" alt="Snippet 1" width="300"/>
+    </td>
+    <td>
+      <img src="/visuals/snippet2.png" alt="Snippet 2" width="300"/>
+    </td>
+    <td>
+      <img src="/visuals/snippet3.png" alt="Snippet 3" width="300"/>
+    </td>
+  </tr>
+</table>
 
-     ![Snippet 1](/path/to/snippet_1.png)
-
-   - **Snippet 2**:
-
-     ![Snippet 2](/path/to/snippet_2.png)
-
-   - **Snippet 3**:
-
-     ![Snippet 3](/path/to/snippet_3.png)
 
 5. **Prepare for OCR**: The individual column images are now prepared for OCR processing to extract the textual content.
 
 For a full demonstration, see the examples below created with images from a sample document.
 
-### Visual Examples
-
-- **Original PDF Page**:
-
-  ![Original PDF Page](/path/to/original_pdf_page.png)
-
-- **Adjusted Image**: After cropping to remove unnecessary borders using the `adjust` method:
-
-  ![Adjusted Image](/path/to/adjusted_image.png)
-
-- **Column Snippets**: Resulting images after applying `snippet_cut`:
-
-  - **Column 1**:
-
-    ![Column 1](/path/to/column1.png)
-
-  - **Column 2**:
-
-    ![Column 2](/path/to/column2.png)
-
-  - **Column 3**:
-
-    ![Column 3](/path/to/column3.png)
-
-Replace `/path/to/...` with the actual paths where the images are hosted. If the images are stored in the repository, the path would be relative to the location of the README file within the repository structure.
 
 
 ## Contributing
