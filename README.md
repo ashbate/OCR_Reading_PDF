@@ -1,6 +1,75 @@
-In this library i use pillow and pdf reader libraries to cut newspaper style structured pdf files into columns and prepare for an OCR process.
-<img width="607" alt="Screenshot 2024-04-07 at 17 08 45" src="https://github.com/ashbate/OCR_Reading_PDF/assets/86680895/440668f3-f425-4e8b-a925-dcfc569cc91d">
-By using the methods we can create 3 seperate pages for a pdf file.
-<img width="204" alt="Screenshot 2024-04-07 at 17 09 12" src="https://github.com/ashbate/OCR_Reading_PDF/assets/86680895/0a104469-0157-4217-a08a-4ebab725f9c3">
-<img width="183" alt="Screenshot 2024-04-07 at 17 09 07" src="https://github.com/ashbate/OCR_Reading_PDF/assets/86680895/9b3cddef-edba-4406-955c-45d0b67ff117">
-<img width="177" alt="Screenshot 2024-04-07 at 17 09 01" src="https://github.com/ashbate/OCR_Reading_PDF/assets/86680895/da1cf7b8-68d6-491f-88d0-d8edeb05879f">
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/ashbate/OCR_Reading_PDF">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">OCR Reading PDF</h3>
+
+  <p align="center">
+    An innovative library designed to segment column-based layouts in PDFs into manageable snippets, enhancing OCR (Optical Character Recognition) processes.
+    <br />
+    <a href="https://github.com/ashbate/OCR_Reading_PDF"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/ashbate/OCR_Reading_PDF">View Demo</a>
+    ·
+    <a href="https://github.com/ashbate/OCR_Reading_PDF/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/ashbate/OCR_Reading_PDF/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+## About The Project
+
+OCR Reading PDF is designed to enhance the preprocessing steps for OCR applications, particularly focusing on PDFs with newspaper-style column-based layouts. It employs advanced image processing to segment pages into columns or snippets, significantly improving subsequent OCR accuracy.
+
+### Built With
+
+* [Pillow](https://python-pillow.org)
+* [pdf2image](https://pypi.org/project/pdf2image/)
+* [NumPy](https://numpy.org)
+* [Pandas](https://pandas.pydata.org)
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+Ensure you have Python 3.6 or later installed on your system.
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ashbate/OCR_Reading_PDF.git
