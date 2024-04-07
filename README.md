@@ -149,12 +149,6 @@ The library processes scanned PDF files of newspaper-style columnar documents, b
     Privately owned
     Products: Custom CMOS integrated circuits
     Sites: Stockholm (Sweden), Paris (France)
-    
-
-   
-        
-
-     
 
 For a full demonstration, see the examples below created with images from a sample document.
 
